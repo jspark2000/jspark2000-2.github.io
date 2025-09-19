@@ -2,14 +2,14 @@
 
 const CONFIG = {
   github: {
-    username: 'jspark2000-2', // Your GitHub org/user name. (This is the only required config)
+    username: 'jspark2000', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/jspark2000-2/jspark2000-2.github.io, set base to '/'.
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/jspark2000-2/portfolio, then set base to '/portfolio/'.
    */
-  base: '/',
+  base: '/jspark2000-2.github.io',
   projects: {
     github: {
       display: true, // Display GitHub projects?
