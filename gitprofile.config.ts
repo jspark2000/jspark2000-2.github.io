@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/jspark2000-2/portfolio, then set base to '/portfolio/'.
    */
-  base: '/jspark2000-2.github.io',
+  base: '/jspark2000-2.github.io/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
