@@ -25,42 +25,23 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['jspark2000-2/gitprofile', 'jspark2000-2/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['skkuding/codedang', 'skku-royals/official-webpage'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
       header: 'My Projects',
-      // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'AI-Driven Drug Target Identification Platform',
-          description:
-            'Deep learning model for predicting protein-drug interactions using graph neural networks and molecular fingerprints. Achieved 85% accuracy in target identification.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/artificial-intelligence-ai-robot-giving-presentation-machine-learning-artificial-intelligence_1150-48771.jpg',
-          link: 'https://github.com/jspark2000/drug-target-ai',
-        },
-        {
-          title: 'Molecular Property Prediction System',
-          description:
-            'Machine learning pipeline for ADMET (Absorption, Distribution, Metabolism, Excretion, Toxicity) prediction using ensemble methods and molecular descriptors.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/molecules-background-science_23-2148488062.jpg',
-          link: 'https://github.com/jspark2000/admet-predictor',
-        },
-        {
-          title: 'Bioinformatics Data Processing Pipeline',
-          description:
-            'Scalable data processing system for genomic and proteomic data analysis using Apache Spark and cloud computing infrastructure.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/dna-structure-white-background_1308-27148.jpg',
-          link: 'https://github.com/jspark2000/bio-pipeline',
+          title: 'Codedang',
+          description: 'Coding platform for SKKU students & lecture',
+          imageUrl: '',
+          link: 'https://github.com/skkuding/codedang',
         },
       ],
     },
   },
   seo: {
-    title: 'Portfolio of Jinsoo Park - AI Drug Discovery & Software Engineer',
+    title: 'Portfolio of Jisoo Park - AI Drug Discovery & Software Engineer',
     description:
       'Software Engineer specializing in AI-driven drug discovery and computational biology. Passionate about applying machine learning to pharmaceutical research and bioinformatics.',
     imageURL: '',
@@ -85,25 +66,20 @@ const CONFIG = {
     telegram: '',
     website: '',
     phone: '',
-    email: 'jspark2000@example.com',
+    email: 'idpjs2000@g.skku.edu',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: '', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Python',
     'Machine Learning',
     'Deep Learning',
-    'TensorFlow',
     'PyTorch',
-    'Scikit-learn',
     'Bioinformatics',
     'Cheminformatics',
     'RDKit',
-    'Molecular Modeling',
-    'Drug Discovery',
-    'QSAR Modeling',
+    'Molecular Dynamics',
     'JavaScript',
     'React.js',
     'Node.js',
@@ -112,91 +88,40 @@ const CONFIG = {
     'PostgreSQL',
     'MongoDB',
     'Docker',
-    'Kubernetes',
-    'AWS',
-    'Git',
-    'Linux',
   ],
   experiences: [
     {
-      company: 'AI Pharmaceutical Research Lab',
-      position: 'AI Research Engineer',
-      from: 'March 2023',
+      company: 'Generative Bio Design Lab',
+      position: 'Research Intern',
+      from: 'Mar 2025',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://genbiodesignlab.com',
     },
     {
-      company: 'Biotech Startup',
-      position: 'Software Developer - Drug Discovery Platform',
-      from: 'June 2022',
-      to: 'February 2023',
-      companyLink: 'https://example.com',
+      company: 'Crois',
+      position: 'Software Developer',
+      from: 'Mar 2024',
+      to: 'Feb 2025',
+      companyLink: 'https://crois.co.kr',
     },
     {
-      company: 'University Research Center',
-      position: 'Research Assistant - Computational Biology',
-      from: 'September 2021',
-      to: 'May 2022',
+      company: 'Human Trust',
+      position: 'Software Developer',
+      from: 'May 2023',
+      to: 'Feb 2024',
       companyLink: 'https://example.com',
     },
   ],
-  certifications: [
-    {
-      name: 'AWS Certified Solutions Architect',
-      body: 'Amazon Web Services',
-      year: 'December 2023',
-      link: 'https://aws.amazon.com/certification/',
-    },
-    {
-      name: 'TensorFlow Developer Certificate',
-      body: 'Google',
-      year: 'August 2023',
-      link: 'https://www.tensorflow.org/certificate',
-    },
-    {
-      name: 'Bioinformatics Specialization',
-      body: 'University of California San Diego (Coursera)',
-      year: 'May 2022',
-      link: 'https://www.coursera.org/specializations/bioinformatics',
-    },
-  ],
+  certifications: [],
   educations: [
     {
-      institution: 'Korea University',
-      degree: 'Master of Science in Computer Science & Engineering',
-      from: '2022',
-      to: '2024',
-    },
-    {
-      institution: 'Seoul National University',
-      degree: 'Bachelor of Science in Computer Science & Engineering',
-      from: '2018',
-      to: '2022',
+      institution: 'SungKyunKwan University',
+      degree: 'Bachelor of Computer Science & Applied Artificial Inteligence',
+      from: '2019',
+      to: '2025',
     },
   ],
-  publications: [
-    {
-      title:
-        'Graph Neural Networks for Molecular Property Prediction in Drug Discovery',
-      conferenceName: '',
-      journalName: 'Journal of Chemical Information and Modeling',
-      authors: 'Jinsoo Park, Dr. Kim Minsu, Dr. Lee Hyejin',
-      link: 'https://example.com',
-      description:
-        'This paper presents a novel approach using graph neural networks to predict molecular properties crucial for drug discovery. Our method demonstrates superior performance compared to traditional QSAR models, achieving state-of-the-art results on benchmark datasets including ADMET prediction tasks.',
-    },
-    {
-      title:
-        'Machine Learning Approaches for Protein-Drug Interaction Prediction',
-      conferenceName:
-        'International Conference on Bioinformatics and Computational Biology',
-      journalName: '',
-      authors: 'Jinsoo Park, Dr. Choi Sunghoon',
-      link: 'https://example.com',
-      description:
-        'We propose a comprehensive machine learning framework for predicting protein-drug interactions using multi-modal data integration. The approach combines sequence-based features, structural information, and chemical descriptors to achieve high accuracy in binding affinity prediction.',
-    },
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
