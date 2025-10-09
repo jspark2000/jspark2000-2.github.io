@@ -33,130 +33,175 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'AI-Driven Drug Target Identification Platform',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Deep learning model for predicting protein-drug interactions using graph neural networks and molecular fingerprints. Achieved 85% accuracy in target identification.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/free-vector/artificial-intelligence-ai-robot-giving-presentation-machine-learning-artificial-intelligence_1150-48771.jpg',
+          link: 'https://github.com/jspark2000/drug-target-ai',
         },
         {
-          title: 'Project Name',
+          title: 'Molecular Property Prediction System',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Machine learning pipeline for ADMET (Absorption, Distribution, Metabolism, Excretion, Toxicity) prediction using ensemble methods and molecular descriptors.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://img.freepik.com/free-vector/molecules-background-science_23-2148488062.jpg',
+          link: 'https://github.com/jspark2000/admet-predictor',
+        },
+        {
+          title: 'Bioinformatics Data Processing Pipeline',
+          description:
+            'Scalable data processing system for genomic and proteomic data analysis using Apache Spark and cloud computing infrastructure.',
+          imageUrl:
+            'https://img.freepik.com/free-vector/dna-structure-white-background_1308-27148.jpg',
+          link: 'https://github.com/jspark2000/bio-pipeline',
         },
       ],
     },
   },
-  seo: { title: 'Portfolio of Ariful Alam', description: '', imageURL: '' },
+  seo: {
+    title: 'Portfolio of Jinsoo Park - AI Drug Discovery & Software Engineer',
+    description:
+      'Software Engineer specializing in AI-driven drug discovery and computational biology. Passionate about applying machine learning to pharmaceutical research and bioinformatics.',
+    imageURL: '',
+  },
   social: {
-    linkedin: 'ariful-alam',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
-    researchGate: '',
+    linkedin: 'jspark2000',
+    x: '',
+    mastodon: '',
+    researchGate: 'jspark2000',
     facebook: '',
     instagram: '',
     reddit: '',
     threads: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
+    medium: '',
+    dev: 'jspark2000',
+    stackoverflow: '',
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'jspark2000@example.com',
   },
   resume: {
     fileUrl:
       'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Python',
+    'Machine Learning',
+    'Deep Learning',
+    'TensorFlow',
+    'PyTorch',
+    'Scikit-learn',
+    'Bioinformatics',
+    'Cheminformatics',
+    'RDKit',
+    'Molecular Modeling',
+    'Drug Discovery',
+    'QSAR Modeling',
     'JavaScript',
     'React.js',
     'Node.js',
-    'Nest.js',
-    'MySQL',
+    'TypeScript',
+    'SQL',
     'PostgreSQL',
-    'Git',
+    'MongoDB',
     'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
+    'Kubernetes',
+    'AWS',
+    'Git',
+    'Linux',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'AI Pharmaceutical Research Lab',
+      position: 'AI Research Engineer',
+      from: 'March 2023',
       to: 'Present',
       companyLink: 'https://example.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
+      company: 'Biotech Startup',
+      position: 'Software Developer - Drug Discovery Platform',
+      from: 'June 2022',
+      to: 'February 2023',
+      companyLink: 'https://example.com',
+    },
+    {
+      company: 'University Research Center',
+      position: 'Research Assistant - Computational Biology',
+      from: 'September 2021',
+      to: 'May 2022',
       companyLink: 'https://example.com',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'AWS Certified Solutions Architect',
+      body: 'Amazon Web Services',
+      year: 'December 2023',
+      link: 'https://aws.amazon.com/certification/',
+    },
+    {
+      name: 'TensorFlow Developer Certificate',
+      body: 'Google',
+      year: 'August 2023',
+      link: 'https://www.tensorflow.org/certificate',
+    },
+    {
+      name: 'Bioinformatics Specialization',
+      body: 'University of California San Diego (Coursera)',
+      year: 'May 2022',
+      link: 'https://www.coursera.org/specializations/bioinformatics',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Korea University',
+      degree: 'Master of Science in Computer Science & Engineering',
+      from: '2022',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Seoul National University',
+      degree: 'Bachelor of Science in Computer Science & Engineering',
+      from: '2018',
+      to: '2022',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title:
+        'Graph Neural Networks for Molecular Property Prediction in Drug Discovery',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
+      journalName: 'Journal of Chemical Information and Modeling',
+      authors: 'Jinsoo Park, Dr. Kim Minsu, Dr. Lee Hyejin',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'This paper presents a novel approach using graph neural networks to predict molecular properties crucial for drug discovery. Our method demonstrates superior performance compared to traditional QSAR models, achieving state-of-the-art results on benchmark datasets including ADMET prediction tasks.',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title:
+        'Machine Learning Approaches for Protein-Drug Interaction Prediction',
+      conferenceName:
+        'International Conference on Bioinformatics and Computational Biology',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
+      authors: 'Jinsoo Park, Dr. Choi Sunghoon',
       link: 'https://example.com',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        'We propose a comprehensive machine learning framework for predicting protein-drug interactions using multi-modal data integration. The approach combines sequence-based features, structural information, and chemical descriptors to achieve high accuracy in binding affinity prediction.',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 2, // How many articles to display. Max is 10.
+    username: 'jspark2000', // to hide blog section, keep it empty
+    limit: 3, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
     id: '', // GA3 tracking id/GA4 tag id UA-XXXXXXXXX-X | G-XXXXXXXXXX
